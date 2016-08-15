@@ -1,4 +1,4 @@
-# タブでいろんな補完が効くようにする
+#タブでいろんな補完が効くようにする
 autoload -U compinit
 compinit
 
@@ -11,9 +11,6 @@ HISTSIZE=1000000
 SAVEHIST=1000000
 setopt hist_ignore_dups     # ignore duplication command history list
 setopt share_history        # share command history data
-
-#load zgen
-source "${HOME}/.zgen/zgen.zsh"
 
 # load zgen
 source "${HOME}/.zgen/zgen.zsh"
